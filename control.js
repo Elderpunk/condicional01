@@ -10,7 +10,7 @@
 
 * Y si, esta vacunada  se le dice que Pase por favor, esta autorizada para comprar la entrada */
 
-let credencial = prompt('¿Está usted vacunado?Por favor muestreme sus credenciales')
+let credencial = prompt('¿Está usted vacunado?Por favor muestreme sus credenciales').toLowerCase()
 if(credencial === 'si') {
     console.log('Pase por favor, esta autorizada para comprar la entrada')
 }else if (credencial === 'no') {
